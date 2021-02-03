@@ -55,12 +55,12 @@ social:
     share_title:
     share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+  - icon:	google-plus
+    url:	http://bominkm.github.io/project/
+    desc:	Add me on google+
+    share_url:
+    share_title:
+    share_link:
 
 # Math equation
 markdown: kramdown
