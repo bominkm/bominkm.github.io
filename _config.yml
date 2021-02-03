@@ -15,7 +15,7 @@ blog_logo: "/assets/images/bmk.png"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/background_image_1.jpg"
+cover: "/assets/images/background_image_2.jpg"
 
 name: 'Bom'
 author: 'Bom'
