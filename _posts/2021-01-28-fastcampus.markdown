@@ -9,6 +9,10 @@ tags:
 
 date: 2021-01-28
 last_modified_at: 2021-01-28
+
+layout: post
+comments: true
+use_math: true
 ---
 
 ### 알고리즘 학습방향  
