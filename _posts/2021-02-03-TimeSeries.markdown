@@ -14,7 +14,7 @@ comments: true
 use_math: true
 ---
 
-### 시계열 데이터 분석 Feature Engineering
+### 시계열 데이터 분석 Feature Engineering  
 
 * 본 게시글은 패스트캠퍼스 **파이썬을 활용한 시계열 데이터 분석** 강의를 듣고 작성되었습니다.
 
@@ -33,7 +33,6 @@ use_math: true
 
 frequency를 변환하는 과정에서 NA값이 발생하고 이를 채우고자 할 때 사용하는 대표적인 방법은 다음과 같습니다. 그중에서도 뒤의 값으로 채우는 bfill과 앞의 값으로 채우는 ffill을 많이 사용합니다.
 
-<center>
 | Method | Description |
 |---------|-----------------------------------------------------------|
 | bfill | Backward fill |
@@ -42,7 +41,7 @@ frequency를 변환하는 과정에서 NA값이 발생하고 이를 채우고자
 | last | Last valid data value |
 | mean | Mean of values in time range |
 | median | Median of values in time range |
-</center>
+
 
 원데이터에 결측값이 있는 경우에도 위의 방법과 마찬가지로 결측값을 채워줘야 합니다.
 
@@ -74,13 +73,21 @@ trend가 제거된 $Y^s_t$ 로 분석하는게 더 정확할 수 있습니다. �
 ex) 계절 더미변수  
 아래와 같이 봄, 여름, 가을, 겨울은 0과 1을 이용하여 3개의 더미변수로 표현할 수 있습니다.
 
-<center>
+| Method | Description |
+|---------|-----------------------------------------------------------|
+| bfill | Backward fill |
+| ffill | Forward fill |
+| first | First valid data value |
+| last | Last valid data value |
+| mean | Mean of values in time range |
+| median | Median of values in time range |
+
+
 | $Y_t$ | $X_1$ | $X_2$ | $X_3$ |
-| :---------: | :---------: | :---------: | :---------: |
+| :------------: | :------------: | :------------: | :------------: |
 | $Y_1$ | 1 | 0 | 0 |
 | $Y_2$ | 0 | 1 | 0 |
 | $Y_3$ | 0 | 0 | 1 |
-</center>
 
 더미변수는 각 X의 값에 따른 Y의 값을 파악할 수 있다는 장점이 있으나 범주가 너무 많으면 사용하기 어렵다는 단점이 있습니다.
 
