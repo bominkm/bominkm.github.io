@@ -4,8 +4,7 @@ excerpt: "지킬 블로그 커스터마이징"
 
 categories:
   - Gitblog
-tags:
-  - [커스터마이징, 블로그, 지킬, Jekyll, Blog]
+tags: blog
 
 date: 2021-02-03
 last_modified_at: 2021-02-03
