@@ -3,8 +3,7 @@ title:  "Fastcampus"
 excerpt: "파이썬을 이용한 시계열 데이터 분석"
 
 categories: fastcampus
-tags:
-  - [Fastcampus, 패스트캠퍼스, Python, 파이썬, 시계열]
+tags: fastcampus
 
 date: 2021-01-28
 last_modified_at: 2021-01-28
