@@ -10,7 +10,6 @@ tags:
 date: 2021-02-03
 last_modified_at: 2021-02-03
 
-layout: post
 comments: true
 use_math: true
 ---
