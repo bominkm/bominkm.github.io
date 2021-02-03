@@ -72,3 +72,6 @@ incremental: false
 # Markdown
 kramdown:
  input: GFM
+
+# disqus
+disqus_shortname: Bomin
