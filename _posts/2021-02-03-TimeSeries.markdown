@@ -4,8 +4,7 @@ excerpt: "시계열 데이터 분석 Feature Engineering"
 
 categories:
   - Fastcampus
-tags:
-  - [Fastcampus, 패스트캠퍼스, Python, 파이썬, 시계열]
+tags: fastcampus
 
 date: 2021-02-03
 last_modified_at: 2021-02-03
