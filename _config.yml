@@ -6,7 +6,7 @@ gems:
 # Site settings
 title: "Data Scientist"
 description: > # this means to ignore newlines until "email:"
-   Data Scientist가 되고 싶은 하는 데린이
+   Data Scientist가 되고 싶은 성장하는 데린이
 
 email: a-mail@mail.mail
 #blog logo
