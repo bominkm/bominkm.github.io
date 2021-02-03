@@ -32,17 +32,6 @@ use_math: true
      font-size: 18px
 ```
 
-``` python
-import pandas as pd
-import naumpy as np
-```
-
-
-``` 
-library(ggplot2)
-df <- data.frame(x, y)
-ggplot(df, aes(x, y))+geom_point()
-```
 
 #### 4. 파비콘(Favicon)
 아래 사이트를 이용하여 이미지를 아이콘으로 만들 수 있습니다.  
