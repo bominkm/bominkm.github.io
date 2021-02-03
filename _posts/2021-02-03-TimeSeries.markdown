@@ -14,7 +14,9 @@ comments: true
 use_math: true
 ---
 
-### 빈도(Frequency)
+### 시계열 Feature Engineering
+
+#### 1. 빈도(Frequency)
 계절성 패턴이 나타나기 전까지의 데이터 갯수  
 
 1. 데이터가 어떤 frequency로 있는지 확인
@@ -43,7 +45,7 @@ frequency를 변환하는 과정에서 NA값이 발생하고 이를 채우고자
 ### 추세(Trend)
 시계열이 시간에 따라 증가 혹은 감소하는 경향
 <center>$Y_t = f(t) + Y^s_t$</center>
-trend가 제거된 $Y^s_t$로 분석하는게 더 정확할 수 있다. 이를 $Y^s_t = $Y_t - f(t)$ 로 표현할 수도 있지만 $Y_t = aT + bX$ 로 표현할 수도 있다. 이는 추세와 $X$의 선형결합으로 표현한 것으로 추세를 제거하여 변환할 필요 없이 feature로 반영하는 것이다.
+trend가 제거된 $Y^s_t$ 로 분석하는게 더 정확할 수 있다. 이를 $Y^s_t = $Y_t - f(t)$ 로 표현할 수도 있지만 $Y_t = aT + bX$ 로 표현할 수도 있다. 이는 추세와 $X$ 의 선형결합으로 표현한 것으로 추세를 제거하여 변환할 필요 없이 feature로 반영하는 것이다.
 
 ### 계절성(Seasonality)
 일정한 빈도로 주기적으로 반복되는 패턴
