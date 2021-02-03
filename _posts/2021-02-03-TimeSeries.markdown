@@ -16,6 +16,7 @@ use_math: true
 
 ### 시계열 데이터 분석 Feature Engineering  
 
+
 * 본 게시글은 패스트캠퍼스 **파이썬을 활용한 시계열 데이터 분석** 강의를 듣고 작성되었습니다.
 
 #### 1. 빈도(Frequency)
@@ -49,6 +50,7 @@ frequency를 변환하는 과정에서 NA값이 발생하고 이를 채우고자
 시계열이 시간에 따라 증가 혹은 감소하는 경향
 <center>$Y_t = f(t) + Y^s_t$</center>  
 
+
 trend가 제거된 $Y^s_t$ 로 분석하는게 더 정확할 수 있습니다. 이를 $Y^s_t = Y_t - f(t)$ 로 표현할 수도 있지만 $Y_t = aT + bX$ 로 표현할 수도 있습니다. 이는 추세와 $X$ 의 선형결합으로 표현한 것으로 추세를 제거하여 변환할 필요 없이 feature로 반영하는 것입니다.
 
 #### 3. 계절성(Seasonality)
@@ -62,6 +64,7 @@ trend가 제거된 $Y^s_t$ 로 분석하는게 더 정확할 수 있습니다. �
 #### 5. 시계열 데이터 분해
 <center>$Y_t = T_t + S_t + e_t$</center>  
 
+
 시계열 데이터는 추세, 계절성, 주기로 표현할 수 있습니다.
 
 #### 6. 잔차(Residual)
@@ -72,16 +75,6 @@ trend가 제거된 $Y^s_t$ 로 분석하는게 더 정확할 수 있습니다. �
 
 ex) 계절 더미변수  
 아래와 같이 봄, 여름, 가을, 겨울은 0과 1을 이용하여 3개의 더미변수로 표현할 수 있습니다.
-
-| Method | Description |
-|---------|-----------------------------------------------------------|
-| bfill | Backward fill |
-| ffill | Forward fill |
-| first | First valid data value |
-| last | Last valid data value |
-| mean | Mean of values in time range |
-| median | Median of values in time range |
-
 
 | $Y_t$ | $X_1$ | $X_2$ | $X_3$ |
 | :------------: | :------------: | :------------: | :------------: |
