@@ -8,7 +8,7 @@ title: "Data Scientist"
 description: > # this means to ignore newlines until "email:"
    Data Scientist가 되고 싶은 성장하는 데린이
 
-email: a-mail@mail.mail
+email: bomin2828@naver.com
 #blog logo
 logo: "/assets/images/home.png"
 blog_logo: "/assets/images/bmk.png"
@@ -50,7 +50,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/bominkm
     desc:	Fork me on github
     share_url:
     share_title:
