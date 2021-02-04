@@ -52,3 +52,18 @@ DISQUS 페이지에 가입하여 게시글마다 댓글기능을 추가하였습
 
 #### 8. 로고분리
 블로그 title과 함께 보여지는 대표 로고와 클릭하면 초기 화면으로 돌아가는 블로그 로고가 동일한 이미지를 사용하는 테마였는데 이를 logo와 blog-logo로 분리하였습니다.
+
+#### 9. 글 카테고리
+Github Blog에서 F12 개발자 도구 디버거 창을 이용하여 기존의 카테고리를 확인하였고 이를 기반으로 카테고리를 수정하였습니다. index.html에서 사용하지 않는 카테고리는 삭제하고 새로운 container를 생성해주었습니다.
+
+``` html
+<!--headline 생성-->
+<h5 class="index-headline algorithm"><span>Algorithm</span></h5>
+    <!--class 생성-->
+    <div class="container blog">
+      <!--해당 tag의 포스트만 보여지도록-->
+      {% for post in site.tags.algorithm %}
+        ...
+      {% endfor %}
+    </div>                         
+```
