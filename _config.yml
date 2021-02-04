@@ -2,7 +2,6 @@
 gems:
   - jemoji
   - jekyll-paginate
-  - jekyll-feed
 
 # Site settings
 title: "Data Scientist"
