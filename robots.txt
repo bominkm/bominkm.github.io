@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: http://bominkm.github.io/sitemap.xml
