@@ -54,7 +54,7 @@ _config.yml 파일에서 기본으로 설정되어 있던 title, description, im
 
 
 #### 7. 댓글기능
-[DISQUS 페이지](https://disqus.com/).에 가입하여 게시글마다 댓글기능을 추가하였고 글을 작성할 때 `comments: true`로 댓글기능을 사용하도록 하였습니다.
+[DISQUS 페이지](https://disqus.com/)에 가입하여 게시글마다 댓글기능을 추가하였고 글을 작성할 때 `comments: true`로 댓글기능을 사용하도록 하였습니다.
 
 #### 8. 로고분리
 블로그 title과 함께 보여지는 대표 로고와 클릭하면 초기 화면으로 돌아가는 블로그 로고가 동일한 이미지를 사용하는 테마였는데 이를 logo와 blog-logo로 분리하였습니다.
