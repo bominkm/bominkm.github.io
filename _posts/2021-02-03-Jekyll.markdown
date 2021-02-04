@@ -41,13 +41,13 @@ _config.yml 파일에서 기본으로 설정되어 있던 title, description, im
 <https://realfavicongenerator.net/>
 
 #### 5. 수식 markdown
-깃허브 블로그는 기본적으로 수식을 지원하지 않아 추가적으로 수식 markdown 기능을 생성하였습니다.
+깃허브 블로그는 기본적으로 수식을 지원하지 않아 추가적으로 수식 markdown 기능을 생성하였습니다. 그리고 글을 작성할 때 ```use_math: true```를 추가하여 수식 마크다운 기능을 적용하였습니다.
 
 #### 6. Syntax highlighting
 기존의 Syntax highlighting에서 디자인을 수정하였습니다. /css/main.sass에서 code의 border, border-radius, background-color도 추가한 디자인과 겹치지 않도록 수정해주었습니다.
 
 #### 7. 댓글기능
-DISQUS 페이지에 가입하여 게시글마다 댓글기능을 추가하였습니다.
+DISQUS 페이지에 가입하여 게시글마다 댓글기능을 추가하였고 글을 작성할 때 ```comments: true```로 댓글기능을 사용하도록 하였습니다.
 <https://disqus.com/>
 
 #### 8. 로고분리
