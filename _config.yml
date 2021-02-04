@@ -77,6 +77,3 @@ kramdown:
 
 # disqus
 disqus_shortname: Bomin
-
-# search engine
-plugins: jekyll-sitemap
