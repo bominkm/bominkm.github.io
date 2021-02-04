@@ -49,7 +49,7 @@ _config.yml 파일에서 기본으로 설정되어 있던 title, description, im
 ```
 
 #### 6. Syntax highlighting
-기존의 Syntax highlighting에서 디자인을 수정하였습니다. /css/main.sass에서 pre>code의 border, border-radius, background-color를 수정하여 코드블럭의 스타일을 변경하였습니다. 또한, code의 padding, background-color를 수정하여 인라인 코드블록의 스타일을 하였습니다.
+기존의 Syntax highlighting에서 디자인을 수정하였습니다. /css/main.sass에서 pre>code의 border, border-radius, background-color를 수정하여 코드블럭의 스타일을 변경하였습니다. 또한, code의 padding, background-color를 수정하여 인라인 코드블록의 스타일을 변경하였습니다.
 
 
 #### 7. 댓글기능
