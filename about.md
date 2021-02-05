@@ -13,10 +13,10 @@ permalink: /about/
 2019 Freemed Team of Biostatistics  
 
 #### Lecture
-* at Univerisity  
-- Introduction to Biostatistics  
-- Calculus 1  
-- Statistics 1 & 2  
+* **at Univerisity**  
+Introduction to Biostatistics  
+Calculus 1  
+Statistics 1 & 2  
 Matrix Algebra  
 Basic Probability Theory  
 Regression Analysis  
@@ -30,7 +30,7 @@ Programming for Statistics
 Statistics for Management and Economy  
 Statistical Graphs with Big Data  
 
-* at Graduate School  
+* **at Graduate School**  
 Probability Theory  
 Theoretical Statistics 1 & 2  
 Regression Analysis  
