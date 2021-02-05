@@ -4,14 +4,36 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+#### Education
+2020-2022 Graduate School - Applicational Statistics
+2016-2020 University - Public Health / Statistics
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+#### Career
+2020 SNU Boramae Medical Center
+2019 Freemed Team of Biostatistics
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+#### Lecture
+##### Univerisity
+Introduction to Biostatistics
+Calculus 1
+Statistics 1 & 2 
+Matrix Algebra
+Basic Probability Theory
+Regression Analysis
+Theory of Experimental Design
+Bayesian Statistics ans Statistical Computing
+Health Medical Database
+Computational Statistics and Lab
+Mathematical Statistics 2
+Sampling Survey Methods
+Programming for Statistics
+Statistics for Management and Economy
+Statistical Graphs with Big Data
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+##### Graduate School
+Probability Theory
+Theoretical Statistics 1 & 2
+Regression Analysis
+Time Series Analysis
+Selected Topics in Data Analysis 2
+Bayesian Deep Learning
