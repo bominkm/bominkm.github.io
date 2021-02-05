@@ -13,6 +13,14 @@ permalink: /about/
 2019 Freemed Team of Biostatistics  
 
 #### Lecture
+* **at Graduate School**  
+Probability Theory  
+Theoretical Statistics 1 & 2  
+Regression Analysis  
+Time Series Analysis  
+Selected Topics in Data Analysis 2  
+Bayesian Deep Learning  
+
 * **at Univerisity**  
 Introduction to Biostatistics  
 Calculus 1  
@@ -29,11 +37,3 @@ Sampling Survey Methods
 Programming for Statistics  
 Statistics for Management and Economy  
 Statistical Graphs with Big Data  
-
-* **at Graduate School**  
-Probability Theory  
-Theoretical Statistics 1 & 2  
-Regression Analysis  
-Time Series Analysis  
-Selected Topics in Data Analysis 2  
-Bayesian Deep Learning  
