@@ -1,5 +1,5 @@
 ---
-title:  "Jekyll Blog Customize"
+title:  "[Github Blog] Jekyll Blog Customize"
 excerpt: "지킬 블로그 커스터마이징"
 
 categories:
