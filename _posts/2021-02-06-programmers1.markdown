@@ -1,6 +1,6 @@
 ---
 title:  "[Programmers] Level 2 소수찾기"
-excerpt: "프로그래머스 레벨 2 소수찾기"
+excerpt: "프로그래머스 완전탐색 레벨 2 소수찾기"
 
 categories: programmers
 tags: programmers
@@ -15,3 +15,4 @@ use_math: true
 
 #### 1. 문제
 출처: <https://programmers.co.kr/learn/courses/30/lessons/42839>
+
