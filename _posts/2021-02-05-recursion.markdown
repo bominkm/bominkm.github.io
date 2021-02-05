@@ -1,5 +1,5 @@
 ---
-title:  "Recursive Algorithm"
+title:  "[Algorithm] Recursive Algorithm"
 excerpt: "재귀 알고리즘"
 
 categories: algorithm
