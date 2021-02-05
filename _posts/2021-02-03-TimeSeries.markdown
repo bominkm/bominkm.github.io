@@ -1,5 +1,5 @@
 ---
-title:  "Time Series Feature Engineering"
+title:  "[Fastcampus] Time Series Feature Engineering"
 excerpt: "시계열 데이터 분석 Feature Engineering"
 
 categories:
