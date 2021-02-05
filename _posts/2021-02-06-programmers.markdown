@@ -33,7 +33,7 @@ use_math: true
 #### 2. 풀이
 ##### 1) 알고리즘
 ###### (1) 가능한 숫자 조합 만들기
-```python
+``` python
 # 리스트에 담기
 lists = []
 for i in range(len(numbers)):
