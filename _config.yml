@@ -26,7 +26,7 @@ paginate:	5
 url: "http://bominkm.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-# twitter_handle: '@dirkfabisch'
+twitter_handle: '@dirkfabisch'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -34,13 +34,13 @@ baseurl: ""
 #google_analytics: UA-XXXXX-X
 
 # social icons and sharing options
-# social:
+social:
 #  - icon:	envelope
-    # url:	https://mail.google.com/
-    # desc: Contact me by email
-    # share_url: http://twitter.com/share
-    # share_title: ?text=
-    # share_link: "&amp;url="
+#     url:	https://mail.google.com/
+#     desc: Contact me by email
+#     share_url: http://twitter.com/share
+#     share_title: ?text=
+#     share_link: "&amp;url="
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
