@@ -1,6 +1,6 @@
 ---
-title:  "Fastcampus"
-excerpt: "파이썬을 이용한 시계열 데이터 분석"
+title:  "[Fastcampus] Algorithm"
+excerpt: "학습방향에 따른 알고리즘"
 
 categories: fastcampus
 tags: fastcampus
@@ -12,6 +12,8 @@ layout: post
 comments: true
 use_math: true
 ---
+
+* 본 게시글은 패스트캠퍼스 **파이썬을 활용한 시계열 데이터 분석** 강의를 듣고 작성되었습니다.
 
 ### 알고리즘 학습방향  
 1) 문제가 어디에 속하는지 -> 분석기획  
