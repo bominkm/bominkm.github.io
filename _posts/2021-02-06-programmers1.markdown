@@ -13,7 +13,7 @@ comments: true
 use_math: true
 ---
 
-#### 1. 문제
+### 1. 문제
 출처: <https://programmers.co.kr/learn/courses/30/lessons/42839>  
 
 **문제설명**  
@@ -26,13 +26,14 @@ use_math: true
 
 **예시**  
 |numbers|return|explanation|
-|:-------------------------:|:-------------------------------:|------------------------------------------------------------------------------------------------------------------------------------------|
+|:-----------------------------------------------------:|:-----------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |"17"|3|[1, 7]으로는 숫자 [1, 7, 17, 71]을, 소수 [7, 17, 71]을 만들 수 있습니다.|
 |"011"|2|[0, 1, 1]으로는 숫자 [0, 1, 10, 11, 101, 110]을, 소수 [11, 101]를 만들 수 있습니다.|
 
-#### 2. 풀이
-##### 1) 알고리즘
-###### (1) 가능한 숫자 조합 만들기
+### 2. 풀이
+#### 1) 알고리즘
+##### (1) 가능한 숫자 조합 만들기
+
 ``` python
 # 리스트에 담기
 lists = []
@@ -58,20 +59,19 @@ for digit in range(len(numbers)):
 ```
 
 * permutation(list, len)  
-
 ```python
 from itertools import permutations 
 lists = ['0', '1', '1']
 list(permutations(lists, len(lists)))
 ```
 
-* set을 이용하여 중복 제거
-
+* set을 이용하여 중복 제거  
 ```python
 list(set(list(permutations(lists, len(lists)))))
 ```
 
-###### (2) 소수찾기
+##### (2) 소수찾기
+
 ```python
 # 소수 찾기
 for j in range(len(value)):  
@@ -85,23 +85,23 @@ for j in range(len(value)):
             answer.append(num)
 ```
 
-###### 2) 성능향상
-###### (1) 가능한 숫자 조합 만들기
+##### 2) 성능향상
+##### (1) 가능한 숫자 조합 만들기  
+
 ```python
 lists = list(numbers)
 for i in range(len(lists)):
     value = list(set(list(map(''.join, permutations(lists, i+1)))))
 ```
 
-* map(function, list)
-
+* map(function, list)  
 ```python
 # 문자열 이어 붙이기
 lists = ['0', '1', '1']
 list(map(''.join, permutations(lists, len(lists))))
 ```
 
-###### (2) 소수 찾기
+##### (2) 소수 찾기
 ```python
 # 소수 찾기
 answer = []
@@ -116,7 +116,7 @@ for j in range(len(value)):
         answer.append(num)
 ```
 
-###### 3) 최종 풀이
+##### 3) 최종 풀이
 ```python
 from itertools import permutations 
 
