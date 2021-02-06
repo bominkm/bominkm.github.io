@@ -58,7 +58,7 @@ for digit in range(len(numbers)):
         numbers.append(number)
 ```
 
-* permutation(list, len)  
+* permutation(list, len) </li>  
 ```python
 from itertools import permutations 
 lists = ['0', '1', '1']
