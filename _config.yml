@@ -71,8 +71,8 @@ excerpt_separator: "\n\n"
 incremental: false
 
 # Markdown
-# kramdown:
-#  input: GFM
+ kramdown:
+  input: GFM
 
 # disqus
 disqus_shortname: Bomin
