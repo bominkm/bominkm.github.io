@@ -47,6 +47,9 @@ frequency를 변환하는 과정에서 NA값이 발생하고 이를 채우고자
 #### 2. 추세(Trend)
 시계열이 시간에 따라 증가 혹은 감소하는 경향  
 
+$$ \begin{align*} { f }{ t }&=\sigma ({ W }{ xh_ f }{ x }{ t }+{ W }{ hh_ f }{ h }{ t-1 }+{ b }{ h_ f })\ { i }{ t }&=\sigma ({ W }{ xh_ i }{ x }{ t }+{ W }{ hh_ i }{ h }{ t-1 }+{ b }{ h_ i })\ { o }{ t }&=\sigma ({ W }{ xh_ o }{ x }{ t }+{ W }{ hh_ o }{ h }{ t-1 }+{ b }{ h_ o })\ { g }{ t }&=\tanh { ({ W }{ xh_ g }{ x }{ t }+{ W }{ hh_ g }{ h }{ t-1 }+{ b }{ h_ g }) } \ { c }{ t }&={ f }{ t }\odot { c }{ t-1 }+{ i }{ t }\odot { g }{ t }\ { h }{ t }&={ o }{ t }\odot \tanh { ({ c }{ t }) } \end{align*} $$
+
+
 $$ \begin{align*} {Y}{t}&= {f}({t}) + {Y}^{s}{t} \end{align*} $$  
 
 trend가 제거된 $Y^s_t$ 로 분석하는게 더 정확할 수 있습니다. 이를 $Y^s_t = Y_t - f(t)$ 로 표현할 수도 있지만 $Y_t = aT + bX$ 로 표현할 수도 있습니다. 이는 추세와 $X$ 의 선형결합으로 표현한 것으로 추세를 제거하여 변환할 필요 없이 feature로 반영하는 것입니다.
