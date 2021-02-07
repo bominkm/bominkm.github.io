@@ -37,8 +37,11 @@ K-means 클러스터링은 가장 가까운 **중심**을 가진 군집에 할�
 
 사전에 클러스터 수 K를 결정하고 각 관측치가 특정 군집에 속할 가중치를 랜덤으로 할당합니다. 그리고 각 군집의 중심을 계산하여 특정 군집에 속할 확률을 다시 계산합니다. 이 과정을 가중치 값의 변화가 주어진 민감도 기준 미만이 될 때까지 반복합니다.  
 
-#### DBSCAN(Density-based Spatial Clustering of Application with Noise)
-밀도 기반 클러스터링(Density-based Spatial Clustering of Application with Noise, DBSCAN)은 어느 점을 기준으로 반경 x 이내 점이 n개 이상 있으면 하나의 군집으로 인식하는 기법이다.
+#### DBSCAN
+밀도 기반 클러스터링(Density-based Spatial Clustering of Application with Noise, DBSCAN)은 점들이 몰려 있어 밀도가 높은 부분을 클러스터링하는 방식입니다. 즉, 어느 점을 기준으로 반경 x 이내 점이 n개 이상 있으면 하나의 군집으로 인식합니다.  
 
+DBSCAN에서 군집은 밀도 기반 도달가능한 최대치의 밀도기반 연결된 점들의 집합으로 정의됩니다. 점을 중심으로 epsilon 반경 이내에 있는 이웃점에 속하고 minPts 이상의 점이 있으면 밀도 기반 도달가능하다고 합니다. 그 점을 중심으로 군집이 되고 이를 core point라고 하며, 군집의 경계에 있는 점은 border point라고 합니다. 
+
+초기에 공간 데이터셋에서 core point의 조건을 만족하는 임의의 점을 선택합니다. 초기값으로부터 밀도기반 도달가능한 점들을 뽑아 core point와 border point를 구분하고 이에 속하지 않는 점들은 noise로 구분합니다. 반경 epsilon인 원 주위에 있는 core point들을 서로 연결하고 이를 하나의 군집으로 정의합니다. 이 때, 모든 border point들은 어느 하나의 군집에 할당됩니다.
 
 * 본 게시글은 [ratsgo's blog](https://ratsgo.github.io/)와 [rfriend](https://rfriend.tistory.com/)를 참고하여 작성되었습니다.
