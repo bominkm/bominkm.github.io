@@ -2,6 +2,8 @@
  * Syntax highlighting styles
  */
 
+@import 'copy-code' if (hexo-config('codeblock.copy_button.enable'));
+
 .highlight-container {
   position: relative;
 }
