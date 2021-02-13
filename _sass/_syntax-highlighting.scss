@@ -2,7 +2,10 @@
  * Syntax highlighting styles
  */
 
-
+pre,
+code {
+  font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+}
 
 .highlight {
     // background: #f8f8f8; // #fff
