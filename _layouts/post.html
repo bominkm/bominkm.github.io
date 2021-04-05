@@ -50,6 +50,13 @@
           <div class="post-reading">
             <span class="post-reading-time"></span> read
           </div>
+          
+          {% if page.code %}
+            <div class="highlight-container">
+              <span class="highlight"></span>
+          </div>
+          {% endif %}
+          
           <a name="topofpage"></a>
           {{content}}
         </section>
