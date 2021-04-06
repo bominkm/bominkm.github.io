@@ -65,7 +65,7 @@ social:
 
 # Math equation
 markdown: kramdown
-# highlighter: rouge
+highlighter: syntax-highlighter
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
