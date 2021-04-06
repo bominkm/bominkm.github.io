@@ -1,5 +1,5 @@
 ---
-title:  "[Clustering] Clustering"
+title:  "[Algorithm] Clustering"
 excerpt: "클러스터링"
 
 categories: algorithm
