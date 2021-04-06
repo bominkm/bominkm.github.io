@@ -14,7 +14,7 @@ use_math: true
 ---
 
 ### SMOTE
-불균형 데이터를 분류하고자 할 때 사용하는 방법으로 oversampling 방법입니다.  
+불균형 데이터를 분류하고자 할 때 사용하는 방법으로 minority 데이터를 oversampling하는 방법입니다.  
 
 **SMOTE(T, N, k)**  
 T: minority 표본 수  
