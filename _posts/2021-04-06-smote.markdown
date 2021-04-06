@@ -21,7 +21,8 @@ T: minority 표본 수
 N: Amount of SMOTE N%
 k: Number of nearest neighbors
 
-<center><img src="knn2.png"></center>
+<center><img src="https://github.com/bominkm/bominkm.github.io/blob/master/assets/images/knn2.png?raw=true"></center>
+
 
 1. x점과 k-nearest neighbor 내에 있는 점 중 임의의 점 y 선택
 2. minority 데이터 x와 임의의 점 y의 차이 diff 계산
