@@ -14,7 +14,7 @@ use_math: true
 ---
 
 ### SMOTE
-불균형 데이터를 분류하고자 할 때 사용하는 방법으로 oversampling 방법이다.  
+불균형 데이터를 분류하고자 할 때 사용하는 방법으로 oversampling 방법입니다.  
 
 **SMOTE(T, N, k)**  
 T: minority 표본 수  
@@ -22,11 +22,10 @@ N: Amount of SMOTE N%
 k: Number of nearest neighbors  
 
 <center><img src="https://github.com/bominkm/bominkm.github.io/blob/master/assets/images/knn2.png?raw=true"></center>
-
-
+<br>
 1. x점과 k-nearest neighbor 내에 있는 점 중 임의의 점 y 선택
 2. minority 데이터 x와 임의의 점 y의 차이 diff 계산
 3. x + gap * diff (이 때, gap은 0과 1사이의 난수)
 4. 위의 과정 N번 반복
 
-위와 같은 과정으로 두 개의 점을 잇는 선을 따라 임의의 점을 선택하여 oversampling할 수 있다.
+위와 같은 과정으로 두 개의 점을 잇는 선을 따라 임의의 점을 선택하여 oversampling할 수 있습니다.
