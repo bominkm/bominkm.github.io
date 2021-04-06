@@ -16,10 +16,10 @@ use_math: true
 ### SMOTE
 불균형 데이터를 분류하고자 할 때 사용하는 방법으로 oversampling 방법이다.  
 
-**SMOTE(T, N, k)**
-T: minority 표본 수
-N: Amount of SMOTE N%
-k: Number of nearest neighbors
+**SMOTE(T, N, k)**  
+T: minority 표본 수  
+N: Amount of SMOTE N%  
+k: Number of nearest neighbors  
 
 <center><img src="https://github.com/bominkm/bominkm.github.io/blob/master/assets/images/knn2.png?raw=true"></center>
 
