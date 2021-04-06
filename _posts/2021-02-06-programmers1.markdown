@@ -68,6 +68,7 @@ list(permutations(lists, len(lists)))
 ```
 
 * set을 이용하여 중복 제거  
+
 ```python
 list(set(list(permutations(lists, len(lists)))))
 ```
@@ -97,6 +98,7 @@ for i in range(len(lists)):
 ```
 
 * map(function, list)  
+ 
 ```python
 # 문자열 이어 붙이기
 lists = ['0', '1', '1']
