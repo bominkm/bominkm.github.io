@@ -1,0 +1,17 @@
+---
+title:  "[Algorithm] SMOTE"
+excerpt: "Synthetic Minority Over-sampling Technique"
+
+categories: algorithm
+tags: algorithm
+
+date: 2021-04-06
+last_modified_at: 2021-04-06
+
+layout: post
+comments: true
+use_math: true
+---
+
+### SMOTE
+불균형 데이터를 분류하고자 할 때 사용하는 방법으로 
