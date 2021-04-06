@@ -35,7 +35,7 @@ use_math: true
 ### 2. 풀이
 #### 1) 알고리즘
 ##### (1) 가능한 숫자 조합 만들기
-<div class="highlight-container>
+
 ``` python
 # 리스트에 담기
 lists = []
@@ -66,7 +66,6 @@ from itertools import permutations
 lists = ['0', '1', '1']
 list(permutations(lists, len(lists)))
 ```
-</div>
 
 * set을 이용하여 중복 제거  
 
