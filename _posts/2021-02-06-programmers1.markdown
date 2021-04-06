@@ -61,6 +61,7 @@ for digit in range(len(numbers)):
 ```
 
 * permutation(list, len)  
+
 ```python
 from itertools import permutations 
 lists = ['0', '1', '1']
