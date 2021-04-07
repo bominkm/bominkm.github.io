@@ -1,9 +1,6 @@
 /**
  * Syntax highlighting styles
  */
-.highlight-container,
-highlight,
-code
 .table-container {
   overflow: auto;
 }
@@ -157,7 +154,8 @@ td {
   position: absolute;
   width: 12px;
 }
-.highlight,
+.highlight-container, 
+highlight,
 pre {
   background: #2d2d2d;
   color: #ccc;
