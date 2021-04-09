@@ -1,0 +1,17 @@
+---
+title:  "[Algorithm] R Package"
+excerpt: "R 패키지 만드는 방법"
+
+categories: algorithm
+tags: algorithm
+
+date: 2021-04-09
+last_modified_at: 2021-04-09
+
+layout: post
+comments: true
+use_math: true
+---
+
+### 1. Introduction
+2019년 6월을 기준으로 14,000여개의 패키지가 CRAN(Comprehensive R Archive Network)에서 사용가능하다. 이렇게 많으 패키지가 있기 때문에 R을 많으 사람들이 사용하고 있는 것이다.
