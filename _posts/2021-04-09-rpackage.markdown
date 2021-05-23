@@ -12,7 +12,7 @@ layout: post
 comments: true
 use_math: true
 ---
-
+ 
 ### 1. Introduction
 R은 패키지가 다양하여 많은 사람들이 이용하고 있습니다. 2019년 6월을 기준으로 14,000여개의 패키지가 CRAN(Comprehensive R Archive Network)에서 사용가능하다고 합니다.  
 
