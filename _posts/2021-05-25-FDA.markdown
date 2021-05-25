@@ -14,7 +14,7 @@ use_math: true
 ---
 # FDA
 
-## 1. Introduction
+### 1. Introduction
 무한차원의 값을 가지는 데이터를 **함수형 데이터**라고 합니다. 예를 들어 매분, 매시, 매초 변하는 주식이나 손글씨도 좌표를 가지는 함수형 데이터라고 할 수 있습니다. 함수형 데이터는 다음과 같은 특징을 가집니다.
 
 * quantity
@@ -43,7 +43,7 @@ Basis 종류는 여러 가지가 있으며 그 중 대표적으로 사용되는 
 **FPCA**에서 principal component는 covariance function의 eigenfunction을 의미하며, 몇 번째 FPC가 전체 분산의 몇 퍼센트를 설명하는지 알 수 있습니다.
 
 
-## 2. Further Topics
+### 2. Further Topics
 
 함수형 데이터로는 그 외에도 여러 가지 분석을 할 수 있습니다. 함수형 데이터를 미분하면 shape를 파악할 수 있습니다. 미분할 때는 **Matern process**를 이용할 수 있는데, 이는 covariance function에 대한 Gaussian process입니다.
 
