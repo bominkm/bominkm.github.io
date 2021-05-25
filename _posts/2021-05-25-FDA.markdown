@@ -34,11 +34,9 @@ $X_n(t)$은 shape의 linear combination을 표현하기 위해 사용되는 smoo
 Basis 종류는 여러 가지가 있으며 그 중 대표적으로 사용되는 basis를 소개해드리려 합니다. **B-spline**은 FDA에서 가장 많이 사용되며 구역을 나누어 polynomial을 적합시키는 방법입니다. 구역을 나누어 polynomial을 적합하고 join하는 과정에서 smooth하게 join하기 위한 knot가 필요합니다. knot는 polynomial 차원을 연결하는 점이므로 knot = polynomial - 1 입니다. **Fourier basis**는 데이터가 계절처럼 periodic할 때 사용되며, polynomial인 경우에 사용할 수 있습니다. 단, 시작값과 끝값이 같은 경우에 사용할 수 있다는 점에 유의해야 합니다. 
 
 
-이렇게 만든 functional data로 **mean**, **covariance**, **principal component**를 구할 수 있습니다. mean은 아래 식처럼 간단한 통계적 기법으로 구할 수 있습니다.
+이렇게 만든 functional data로 **mean**, **covariance**, **principal component**를 구할 수 있습니다. mean과 covariance는 아래 식처럼 간단한 통계적 기법으로 구할 수 있습니다.
 
 \\( \bar{X_N}(t) = \frac{1}{N} \sum_{n=1}^N X_n(t) \\)  
-
-covariance도 아래 식처럼 간단한 통계적 기법으로 구할 수 있습니다.
   
 \\( \hat{c}(t, s) = \frac{1}{N-1} \sum_{n=1}^N (X_n(t) − \bar{X}_N(t))(X_n(s) −X_N(s)) \\)
 
