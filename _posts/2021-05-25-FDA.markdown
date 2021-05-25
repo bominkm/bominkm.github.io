@@ -1,0 +1,29 @@
+---
+title:  "[Algorithm] FDA"
+excerpt: "Functional Data Analysis"
+
+categories: algorithm
+tags: algorithm
+
+date: 2021-05-25
+last_modified_at: 2021-05-25
+
+layout: post
+comments: true
+use_math: true
+---
+
+# FDA
+
+무한차원의 값을 가지는 데이터를 함수형 데이터라고 합니다. 예를 들어 매분, 매시, 매초 변하는 주식이나 손글씨도 좌표를 가지는 함수형 데이터라고 할 수 있습니다. 함수형 데이터는 다음과 같은 특징을 가집니다.
+
+* quantity
+* frequency
+* similarity
+* smoothness
+
+함수형 데이터는 관측된 데이터에 대한 요약된 정보를 나타내며 함수의 모양에 초점을 맞춥니다. 이 때, smoothing하여 표현하며 관측되지 않은 값이 있더라도 함수형 데이터로 나타낼 수 있습니다.
+
+함수형 데이터 분석 FDA에서는 raw data를 functional object로 바꿔주어야 합니다. 이 때, basis function expansion을 사용할 수 있습니다. 
+
+$X_n(t) = $\sum_{m=1}^M c_nm B_m(t)$$
