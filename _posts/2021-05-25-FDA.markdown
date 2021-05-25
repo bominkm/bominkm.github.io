@@ -12,9 +12,9 @@ layout: post
 comments: true
 use_math: true
 ---
-
 # FDA
 
+## 1. Introduction
 무한차원의 값을 가지는 데이터를 **함수형 데이터**라고 합니다. 예를 들어 매분, 매시, 매초 변하는 주식이나 손글씨도 좌표를 가지는 함수형 데이터라고 할 수 있습니다. 함수형 데이터는 다음과 같은 특징을 가집니다.
 
 * quantity
@@ -24,6 +24,7 @@ use_math: true
 
 함수형 데이터는 관측된 데이터에 대한 요약된 정보를 나타내며 함수의 **shape**에 초점을 맞춥니다. 이 때, smoothing하여 표현하며 관측되지 않은 값이 있더라도 함수형 데이터로 나타낼 수 있습니다.
 
+
 함수형 데이터 분석 FDA에서는 raw data를 **functional object**로 바꿔주어야 합니다. 이 때, **Basis function expansion**을 사용할 수 있습니다. 
 
 \\( X_n(t) = \sum_{m=1}^M c_{nm} B_m(t) \\)
@@ -32,10 +33,18 @@ $X_n(t)$은 shape의 linear combination을 표현하기 위해 사용되는 smoo
 
 Basis 종류는 여러 가지가 있으며 그 중 대표적으로 사용되는 basis를 소개해드리려 합니다. **B-spline**은 FDA에서 가장 많이 사용되며 구역을 나누어 polynomial을 적합시키는 방법입니다. 구역을 나누어 polynomial을 적합하고 join하는 과정에서 smooth하게 join하기 위한 knot가 필요합니다. knot는 polynomial 차원을 연결하는 점이므로 knot = polynomial - 1 입니다. **Fourier basis**는 데이터가 계절처럼 periodic할 때 사용되며, polynomial인 경우에 사용할 수 있습니다. 단, 시작값과 끝값이 같은 경우에 사용할 수 있다는 점에 유의해야 합니다. 
 
+
 이렇게 만든 functional data로 **mean**, **covariance**, **principal component**를 구할 수 있습니다. mean과 covariance는 아래 식처럼 간단한 통계적 기법으로 구할 수 있습니다.
 
 \\( \bar{X}_N(t) = \frac{1}{N} \sum_{n=1}^N X_n(t) \\)
 
 \\( \hat{c}(t, s) = \frac{1}{N-1} \sum_{n=1}^N (X_n(t) − \bar{X}_N(t))(X_n(s) −X_N(s)) \\)
 
-**FPCA**에서 principal component는 covariance function의 eigenfunction을 의미하며, 몇 번째 FPC가 전체 분산의 몇 퍼센트를 설명하는지 알 수 있습니다. 
+**FPCA**에서 principal component는 covariance function의 eigenfunction을 의미하며, 몇 번째 FPC가 전체 분산의 몇 퍼센트를 설명하는지 알 수 있습니다.
+
+
+## 2. Further Topics
+
+함수형 데이터로는 그 외에도 여러 가지 분석을 할 수 있습니다. 함수형 데이터를 미분하면 shape를 파악할 수 있습니다. 미분할 때는 **Matern process**를 이용할 수 있는데, 이는 covariance function에 대한 Gaussian process입니다.
+
+함수가 적절히 smooth되어 있지 않으면 FDA 결과는 noise가 많아 잘못된 결과를 낼 수도 있습니다. 이렇듯 데이터가 너무 wiggly한 경우에는 규제를 주어 smooth하는 **Penalized smoothing**을 할수도 있습니다. 
