@@ -1,5 +1,5 @@
 ---
-title:  “[Algorithm] SQL"
+title:  [Algorithm] SQL
 excerpt: "SQL 명령어 정리"
 
 categories: algorithm
