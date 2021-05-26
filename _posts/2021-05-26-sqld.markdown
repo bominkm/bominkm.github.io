@@ -43,3 +43,15 @@ use_math: true
 3. Not null: Null값을 입력하지 못함
 4. Check: 특정 column에만 설정하는 제약
 5. Foreign key: 참조하는 column에 거는 제약
+
+* SQL문
+1. 제약 추가: ALTER TABLE 테이블명 ADD CONSTRAINT 제약이름
+2. 제약 수정: ALTER TABLE 테이블명 MODIFY 컬럼명 컬럼조건
+3. 제약 삭제: ALTER TABLE 테이블명 DROP CONSTRAINT 제약이름
+4. 제약 활성: ALTER TABLE 테이블명 DISABLE CONSTRAINT 제약조건
+5. 제약 비활성: ALTER TABLE 테이블명 ENABLE CONSTRAINT 제약조건
+6. 참조 비활성: ALTER TABLE 테이블명 DROP 제약조거 CASCADE;
+
+* 테이블 생성시 무결성 제약조건을 정의하여 프로그래밍 과정을 줄여줌ㅃ
+* 테이블 생성시 무결성 제약조건을 정의하여 프로그래밍 과정을 줄여줌ㅣ
+* 테이블 생성시 무결성 제약조건을 정의하여 프로그래밍 과정을 줄여줌
