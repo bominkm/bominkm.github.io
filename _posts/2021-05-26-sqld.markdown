@@ -6,7 +6,7 @@ categories: algorithm
 tags: algorithm
 
 date: 2021-05-26
-last_modified_at: 2021-05-26
+last_modified_at: 2021-05-28
 
 layout: post
 comments: true
@@ -23,6 +23,7 @@ use_math: true
 | **트랜잭션 제어어(TCL)** | COMMIT, ROLLBACK | DML에 의해 조작된 결과를 트랜잭션 별로 제어하는 명령어 |
 
 * 참고: SELECT > FROM > WHERE > GROUP BY > HAVING > ORDER BY
+* 참괴: GROUP BY ROLLUP (position, subject)
 
 ### 2. 트랜잭션의 특성
 
@@ -56,3 +57,13 @@ use_math: true
 5. 제약 비활성: ALTER TABLE 테이블명 **ENABLE CONSTRAINT** 제약조건
 6. 참조 비활성: ALTER TABLE 테이블명 **DROP** 제약조건 **CASCADE**;
 
+### 4. NULL
+* 공백 $\neq$ NULL
+* SUM(): NULL 무시하고 연산
+* NVL("값","지정값"): 값이 NULL인 경우 지정값 출력
+* NVL2("값","지정값","지정값2"): 값이 NULL아 아닌 경우 지정값1, NULL인 경우 지정값2 출력
+
+* COUNT
+  * COUNT($*$): 테이블의 모든 ROW의 수
+  * COUNT(column): 해당 column의 NOT NULL인 ROW의 수
+  * COUNT(DISTINCT column): 해당 column의 중복을 제거하고 NOT NULL인 ROW의 수
