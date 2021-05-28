@@ -64,6 +64,6 @@ use_math: true
 * NVL2("값","지정값","지정값2"): 값이 NULL아 아닌 경우 지정값1, NULL인 경우 지정값2 출력
 
 * COUNT
-  * COUNT($*$): 테이블의 모든 ROW의 수
+  * COUNT(*): 테이블의 모든 ROW의 수
   * COUNT(column): 해당 column의 NOT NULL인 ROW의 수
   * COUNT(DISTINCT column): 해당 column의 중복을 제거하고 NOT NULL인 ROW의 수
