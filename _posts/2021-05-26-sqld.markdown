@@ -62,6 +62,10 @@ use_math: true
 * SUM(): NULL 무시하고 연산
 * NVL("값","지정값"): 값이 NULL인 경우 지정값 출력
 * NVL2("값","지정값","지정값2"): 값이 NULL아 아닌 경우 지정값1, NULL인 경우 지정값2 출력
+* NULLIF("EXP1","EXP2"): EXP1 = EXP2 이면 NULL, 다르면 EXP1
+* DECODE("EXP1","EXP2","EXP3"): EXP1 = EXP2이면 EXP3, 아니면 NULL 
+* CASE: IF-THEN-ELSE 만족하지 않으면 NULL
+* COALESCE: NULL이 아닌 최초의 EXP 출력
 
 * COUNT
   * COUNT(*): 테이블의 모든 ROW의 수
