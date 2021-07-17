@@ -1,5 +1,5 @@
 ---
-title:  [Algorithm] Word Embedding
+title:  "[Algorithm] Word Embedding"
 excerpt: "자연어처리 단어 임베딩"
 
 categories: algorithm
